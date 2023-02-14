@@ -1,5 +1,5 @@
 #heading {
-    margin: 0 auto 0 auto;
+    margin: 0 auto 2% auto;
 }
 
 body {
@@ -14,7 +14,8 @@ li {
 }
 
 .dot-text {
-    color: green;
+    color: rgb(6, 236, 228);
+    font-weight: bolder;
 }
 
 .search-text {
@@ -43,14 +44,15 @@ li {
 }
 
 .upper-text {
-    margin: auto auto 15% 5%;
+    margin: auto auto 25% 5%;
     width: 60%;
 }
 
 .intro-text {
-    margin: 1% auto 1% auto;
+    margin: 1% auto 4% auto;
     font-family: serif;
     font-size:xx-large;
+    transform: scaleY(1.2);
 }
 
 .upper-box {
