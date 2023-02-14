@@ -1,11 +1,11 @@
+#heading {
+    margin: 0 auto 0 auto;
+}
+
 body {
     font-family: 'Arial';
     margin: 0;
     text-align: left;
-}
-
-h1 {
-    margin: 0 auto 0 auto;
 }
 
 li {
@@ -70,8 +70,10 @@ li {
 }
 
 .nav-logo {
+    width: 200px;
+    height: 40px;
     float: left;
-    margin-right: 50px;
+    margin-right: 5%;
 }
 
 .nav-link {
