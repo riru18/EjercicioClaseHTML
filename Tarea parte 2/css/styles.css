@@ -78,6 +78,7 @@ hr {
 span {
     text-decoration: line-through;
     color: rgb(156, 156, 156);
+    font-weight: lighter; 
 }
 
 .img-container img {
