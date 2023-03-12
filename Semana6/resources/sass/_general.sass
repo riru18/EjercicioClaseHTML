@@ -1,0 +1,32 @@
+@import 'variables'
+@import 'mixin'
+
+body
+    font-family: Arial
+    margin: 0
+    
+.top 
+  @include flexbox
+
+.header
+    background-color: $primary-color
+    color: $header-color
+    flex: 1 1 0
+    @include width($min +30px, $max +1070px)
+    h1 
+        text-align: center
+        margin: 0
+        padding: 2rem
+
+.bottom
+    @include flexbox
+
+.child
+    background-color: $secondary-color
+    padding: 1.5rem 1rem
+    margin: 0.75rem
+    flex: 1 1 0
+    @include width($min, $max)
+
+.last
+    @include width($min, $max +100px)

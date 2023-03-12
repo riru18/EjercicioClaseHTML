@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header {
+  background-color: #993399;
+  color: white;
+  flex: 1 1 0;
+  min-width: 330px;
+  max-width: 1470px;
+}
+.header h1 {
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.child {
+  background-color: #00ffff;
+  padding: 1.5rem 1rem;
+  margin: 0.75rem;
+  flex: 1 1 0;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.last {
+  min-width: 300px;
+  max-width: 500px;
+}/*# sourceMappingURL=base.css.map */
